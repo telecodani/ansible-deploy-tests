@@ -7,5 +7,5 @@
   - name: Copy installation log from remote to local in /tmp
     become: true
     fetch: 
-      src: /tmp/adop_test_3_log.txt
-      dest: /tmp/adop_test_3_log.txt
+      src: /tmp/adop_test_2_log.txt
+      dest: /tmp/adop_test_2_log.txt
