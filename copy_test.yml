@@ -1,0 +1,11 @@
+---
+- hosts: adop
+  gather_facts: false
+
+  tasks:
+
+  - name: Copy installation log from remote to local in /tmp
+    become: true
+    fetch: 
+      src: /tmp/adop_test_3_log.txt
+      dest: /tmp/adop_test_3_log.txt
