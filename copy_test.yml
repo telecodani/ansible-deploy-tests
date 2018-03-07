@@ -9,3 +9,7 @@
     fetch: 
       src: /tmp/adop_test_2_log.txt
       dest: /tmp/adop_test_2_log.txt
+
+  - name: Copy installation log from Docker image to local
+    become: true
+    shell: docker cp e64856150051:/tmp /home/IDV/
