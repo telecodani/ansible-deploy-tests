@@ -12,4 +12,4 @@
 
   - name: Copy installation log from Docker image to local
     become: true
-    shell: docker cp e64856150051:/tmp /home/IDV/
+    shell: docker cp e64856150051:/tmp /tmp
